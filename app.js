@@ -2,7 +2,7 @@ var express = require('express');
 var app = express();
 
 var server_port = process.env.PORT || 8080;
-//app.use(express.static(__dirname));
+app.use(express.static(__dirname));
 
 //Routes
 //home page route

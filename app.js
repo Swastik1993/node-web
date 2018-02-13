@@ -1,17 +1,26 @@
 var express = require('express');
 var app = express();
 
+app.set("view engine", "ejs");
+
 var server_port = process.env.PORT || 8080;
 app.use(express.static(__dirname));
 
 //Routes
 //home page route
 app.get('/', function(request, response) {
-    response.send("Server response from home page");
+    response.render("index", {
+        title : "Welcome to my site!"
+    });
+    //response.send("Server response from home page");
 });
 
 app.get('/blog', function(request, response) {
     return response.redirect(200, "http://blog.swastikbiswas.me/");
+});
+
+app.get('*', function(request, response) {
+    response.send("This page does not exist");
 });
 
 app.listen(server_port, function() {

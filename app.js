@@ -15,6 +15,13 @@ app.get('/', function(request, response) {
     //response.send("Server response from home page");
 });
 
+app.get('/cnn', function(request, response) {
+    response.render("cnn_notebook", {
+        title : "Basic CNN using Keras"
+    });
+    //response.send("Server response from home page");
+});
+
 app.get('/blog', function(request, response) {
     return response.redirect(200, "http://blog.swastikbiswas.me/");
 });

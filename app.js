@@ -10,7 +10,7 @@ app.use(express.static(__dirname));
 //home page route
 app.get('/', function(request, response) {
     response.render("index", {
-        title : "Welcome to my site!"
+        title : "Sorry but I think you got the wrong link"
     });
     //response.send("Server response from home page");
 });

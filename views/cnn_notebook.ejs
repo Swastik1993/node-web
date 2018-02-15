@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head><meta charset="utf-8" />
-<title><%= title%></title><script src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.1.10/require.min.js"></script>
+<title>notebook</title><script src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.1.10/require.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
 
 <style type="text/css">
@@ -11784,7 +11784,27 @@ div#notebook {
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
 <hr>
-<p>This is a 5 layers Sequential Convolutional Neural Network for digits recognition trained on MNIST dataset. It is build with Keras API (Tensorflow backend).</p>
+<h2 id="Requirements">Requirements<a class="anchor-link" href="#Requirements">&#182;</a></h2><ul>
+<li><a href="https://www.python.org/">Python (version 3.6.x)</a></li>
+<li><a href="https://www.scipy.org/">Scipy</a></li>
+<li><a href="http://www.numpy.org/">Numpy</a></li>
+<li><a href="https://pandas.pydata.org/">Pandas</a></li>
+<li><a href="https://matplotlib.org/">Matplotlib</a></li>
+<li><a href="https://seaborn.pydata.org/">Seaborn</a></li>
+<li><a href="https://keras.io/">Keras</a></li>
+<li><a href="https://www.tensorflow.org/">Tensorflow</a></li>
+</ul>
+<p>You can either download all of them seperately and install them, or you can use <a href="https://anaconda.org/">Anaconda</a> to get them easily however if you want to use Tensorflow training with GPU enabled then the installation is a little different. It is only useful if your GPU card has CUDA Compute Capability 3.0 or higher. Please refer to this <a href="https://developer.nvidia.com/cuda-gpus/">NVIDIA link</a> for your GPU compatibility and this is the <a href="https://www.tensorflow.org/install/">Tensorflow installation instructions</a></p>
+
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<hr>
+<h2 id="Description">Description<a class="anchor-link" href="#Description">&#182;</a></h2><p>This is a 5 layers Sequential Convolutional Neural Network for digits recognition trained on MNIST dataset. It is build with Keras API (Tensorflow backend).</p>
 <p>I achieved 99.5% to 99.6% accuracy with this CNN trained on Kaggle online Kernels. <strong>If you have an old system like mine (i7-3610QM @ 3.2Ghz, NVIDIA GeForce GT-630M) it is recommended to try on online systems or cloud. Otherwise your processor will get hot... really hot and the system might also shutdown.</strong></p>
 <p>For the above reasons, I set the number of epochs to 1 (that only made my laptop quite hot), if you want to achieve 99%+ accuracy set it to any value above 20 and enjoy.</p>
 <hr>

@@ -22,7 +22,7 @@ app.get('/cnn', function(request, response) {
 });
 
 app.get('/dot-plot', function(request, response) {
-    response.render("cnn_notebook", {
+    response.render("dot-plot", {
         title : "Basic Dot-plot representation"
     });
     //response.send("Server response from home page");

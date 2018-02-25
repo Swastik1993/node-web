@@ -19,6 +19,12 @@ app.get('/cnn', function(request, response) {
     response.render("cnn_notebook", {
         title : "Basic CNN using Keras"
     });
+});
+
+app.get('/dot-plot', function(request, response) {
+    response.render("cnn_notebook", {
+        title : "Basic Dot-plot representation"
+    });
     //response.send("Server response from home page");
 });
 

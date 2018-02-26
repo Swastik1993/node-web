@@ -9,7 +9,7 @@ var server_port = process.env.PORT || 8080;
 app.use(express.static(__dirname));
 
 //Routes
-var routes = require("/routes")
+var routes = require("./routes")
 
 app.get('/', routes.home);
 app.get('/cnn', routes.cnn);

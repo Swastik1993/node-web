@@ -28,6 +28,13 @@ app.get('/dot-plot', function(request, response) {
     //response.send("Server response from home page");
 });
 
+app.get('/lstm', function(request, response) {
+    response.render("lstm-rnn", {
+        title : "LSTM - RNN network for testing addition"
+    });
+    //response.send("Server response from home page");
+});
+
 app.get('/blog', function(request, response) {
     return response.redirect(200, "http://blog.swastikbiswas.me/");
 });

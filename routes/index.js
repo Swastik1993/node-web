@@ -25,6 +25,12 @@ exports.lstm = function(request, response) {
     });
 };
 
+exports.opencv = function(request, response) {
+    response.render("opencv-python", {
+        title : "Instructions to install OpenCV with Python"
+    });
+};
+
 exports.blog = function(request, response) {
     return response.redirect(200, "http://blog.swastikbiswas.me/");
 };

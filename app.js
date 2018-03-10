@@ -6,7 +6,10 @@ var app = express();
 app.set("view engine", "ejs");
 
 var server_port = process.env.PORT || 8080;
-app.use(express.static(__dirname));
+
+var path = require('path');
+
+app.use(express.static(path.join(__dirname, 'public')));
 
 //Routes
 var routes = require("./routes")

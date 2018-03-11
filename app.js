@@ -32,7 +32,7 @@ app.listen(server_port, function() {
 const sgMail = require('@sendgrid/mail');
 sgMail.setApiKey(process.env.SENDGRID_API_KEY);
 const msg = {
-  to: 'sbiswas1993@gmail.com',
+  to: 'swastikbiswas2016@gmail.com',
   from: 'mail@swastikbiswas.me',
   subject: 'Testing mail from SendGrid WebAPI',
   text: 'Sending mails is easy to do anywhere, even with Node.js',

@@ -18,7 +18,9 @@
   },
   "homepage": "https://github.com/Swastik1993/node-web#readme",
   "dependencies": {
+    "@sendgrid/mail": "^6.2.1",
     "ejs": "^2.5.7",
-    "express": "^4.16.2"
+    "express": "^4.16.2",
+    "sendgrid": "^5.2.3"
   }
 }

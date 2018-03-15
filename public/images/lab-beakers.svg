@@ -1,0 +1,135 @@
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0" y="0" width="1460" height="869.908" viewBox="0, 0, 1460, 869.908">
+  <style>
+#bubble-three-green {
+  -webkit-animation: bubbleOne 750ms linear infinite;
+          animation: bubbleOne 750ms linear infinite;
+}
+
+#bubble-four-green {
+  -webkit-animation: bubbleOne 975ms linear infinite;
+          animation: bubbleOne 975ms linear infinite;
+}
+
+#bubble-two-green {
+  -webkit-animation: bubbleThree 1005ms linear infinite;
+          animation: bubbleThree 1005ms linear infinite;
+}
+
+#bubble-one-green,
+#bubble-five-green {
+  -webkit-animation: bubbleThree 820ms linear infinite;
+          animation: bubbleThree 820ms linear infinite;
+}
+
+#bubble-six-green{
+  -webkit-animation: bubbleOne 1250ms linear infinite;
+          animation: bubbleOne 1250ms linear infinite;
+}
+
+@-webkit-keyframes bubbleOne {
+  0% {
+    -webkit-transform: translate3d(0, 0, 0);
+            transform: translate3d(0, 0, 0);
+    opacity: 1;
+  }
+  45% {
+    opacity: 1;
+    -webkit-transform: translate3d(15px, -25px, 0);
+            transform: translate3d(15px, -25px, 0);
+  }
+  90% {
+    -webkit-transform: translate3d(-5px, -30px, 0);
+            transform: translate3d(-5px, -30px, 0);
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform: translate3d(0, 0, 0);
+            transform: translate3d(0, 0, 0);
+    opacity: 0;
+  }
+}
+
+@keyframes bubbleOne {
+  0% {
+    -webkit-transform: translate3d(0, 0, 0);
+            transform: translate3d(0, 0, 0);
+    opacity: 1;
+  }
+  45% {
+    opacity: 1;
+    -webkit-transform: translate3d(15px, -25px, 0);
+            transform: translate3d(15px, -25px, 0);
+  }
+  90% {
+    -webkit-transform: translate3d(-5px, -30px, 0);
+            transform: translate3d(-5px, -30px, 0);
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform: translate3d(0, 0, 0);
+            transform: translate3d(0, 0, 0);
+    opacity: 0;
+  }
+}
+@-webkit-keyframes bubbleThree {
+  0% {
+    -webkit-transform: translate3d(0, 0, 0);
+            transform: translate3d(0, 0, 0);
+    opacity: 1;
+  }
+  45% {
+    opacity: 1;
+    -webkit-transform: translate3d(-10px, -35px, 0);
+            transform: translate3d(-10px, -35px, 0);
+  }
+  90% {
+    -webkit-transform: translate3d(9px, -50px, 0);
+            transform: translate3d(9px, -50px, 0);
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform: translate3d(0, 0, 0);
+            transform: translate3d(0, 0, 0);
+    opacity: 0;
+  }
+}
+@keyframes bubbleThree {
+  0% {
+    -webkit-transform: translate3d(0, 0, 0);
+            transform: translate3d(0, 0, 0);
+    opacity: 1;
+  }
+  45% {
+    opacity: 1;
+    -webkit-transform: translate3d(-10px, -35px, 0);
+            transform: translate3d(-10px, -35px, 0);
+  }
+  90% {
+    -webkit-transform: translate3d(9px, -50px, 0);
+            transform: translate3d(9px, -50px, 0);
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform: translate3d(0, 0, 0);
+            transform: translate3d(0, 0, 0);
+    opacity: 0;
+  }
+}
+
+
+
+</style>
+  <g id="beaker">
+      <path d="M1085.651,738.703 L1223.64,511.063 L1361.629,738.703 C1377.011,764.079 1362.088,799.913 1336.138,799.913 L1111.142,799.913 C1085.191,799.913 1070.268,764.079 1085.651,738.703" fill="#C4EAEE"/>
+      <path d="M1294.534,765.152 L1152.747,765.152 L1152.747,488.909 L1294.534,488.909 z" fill="#C4EAEE"/>
+      <path d="M1326.786,731.725 L1273.628,644.031 L1173.652,644.031 L1120.494,731.725 C1108.996,750.694 1120.151,777.479 1139.549,777.479 L1307.732,777.479 C1327.13,777.479 1338.284,750.694 1326.786,731.725" fill="#9FD86E"/>
+      <g id="beaker-green">
+        <path id="bubble-one-green" d="M1180.107,722.419 C1180.107,728.861 1174.885,734.082 1168.444,734.082 C1162.002,734.082 1156.78,728.861 1156.78,722.419 C1156.78,715.978 1162.002,710.756 1168.444,710.756 C1174.885,710.756 1180.107,715.978 1180.107,722.419" fill="#8BC751"/>
+        <path id="bubble-two-green" d="M1242.624,685.141 C1242.624,694.159 1235.313,701.47 1226.295,701.47 C1217.277,701.47 1209.966,694.159 1209.966,685.141 C1209.966,676.123 1217.277,668.812 1226.295,668.812 C1235.313,668.812 1242.624,676.123 1242.624,685.141" fill="#8BC751"/>
+        <path id="bubble-three-green" d="M1220.229,604.799 C1220.229,612.014 1214.381,617.862 1207.167,617.862 C1199.953,617.862 1194.104,612.014 1194.104,604.799 C1194.104,597.584 1199.953,591.736 1207.167,591.736 C1214.381,591.736 1220.229,597.584 1220.229,604.799" fill="#8BC751"/>
+        <path id="bubble-four-green" d="M1299.363,685.052 C1299.363,694.021 1292.092,701.292 1283.123,701.292 C1274.154,701.292 1266.883,694.021 1266.883,685.052 C1266.883,676.083 1274.154,668.812 1283.123,668.812 C1292.092,668.812 1299.363,676.083 1299.363,685.052" fill="#8BC751"/>
+        <path id="bubble-five-green" d="M1236.092,748.273 C1236.092,751.711 1233.305,754.499 1229.866,754.499 C1226.428,754.499 1223.64,751.711 1223.64,748.273 C1223.64,744.834 1226.428,742.047 1229.866,742.047 C1233.305,742.047 1236.092,744.834 1236.092,748.273" fill="#8BC751"/>
+        <path id="bubble-six-green" d="M1294.534,751.673 C1294.534,756.989 1290.224,761.299 1284.908,761.299 C1279.591,761.299 1275.282,756.989 1275.282,751.673 C1275.282,746.357 1279.591,742.047 1284.908,742.047 C1290.224,742.047 1294.534,746.357 1294.534,751.673" fill="#8BC751"/>
+      </g>
+    </g>
+</svg>

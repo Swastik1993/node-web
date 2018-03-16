@@ -1,135 +1,150 @@
-<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0" y="0" width="1460" height="869.908" viewBox="0, 0, 1460, 869.908">
-  <style>
-#bubble-three-green {
-  -webkit-animation: bubbleOne 750ms linear infinite;
-          animation: bubbleOne 750ms linear infinite;
-}
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<!-- Creator: CorelDRAW 2017 -->
+<svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" width="200px" height="200px" version="1.1" style="shape-rendering:geometricPrecision; text-rendering:geometricPrecision; image-rendering:optimizeQuality; fill-rule:evenodd; clip-rule:evenodd"
+    viewBox="0 0 8500 11000" xmlns:xlink="http://www.w3.org/1999/xlink">
+ <defs>
+  <style type="text/css">
+   <![CDATA[
+    .fil0 {fill:#C4EAEE}
+    .fil5 {fill:#E61794}
+    .fil4 {fill:#F238A6}
+    .fil1 {fill:#C7007D}
+    .fil3 {fill:#A60066}
+    .fil2 {fill:#AD0078}
+    .fil6 {fill:#990070}
+   ]]>
 
-#bubble-four-green {
-  -webkit-animation: bubbleOne 975ms linear infinite;
-          animation: bubbleOne 975ms linear infinite;
-}
+   #bubble-three-green {
+    -webkit-animation: bubbleOne 750ms linear infinite;
+            animation: bubbleOne 750ms linear infinite;
+    }
 
-#bubble-two-green {
-  -webkit-animation: bubbleThree 1005ms linear infinite;
-          animation: bubbleThree 1005ms linear infinite;
-}
+    #bubble-four-green {
+    -webkit-animation: bubbleOne 975ms linear infinite;
+            animation: bubbleOne 975ms linear infinite;
+    }
 
-#bubble-one-green,
-#bubble-five-green {
-  -webkit-animation: bubbleThree 820ms linear infinite;
-          animation: bubbleThree 820ms linear infinite;
-}
+    #bubble-two-green {
+    -webkit-animation: bubbleThree 1005ms linear infinite;
+            animation: bubbleThree 1005ms linear infinite;
+    }
 
-#bubble-six-green{
-  -webkit-animation: bubbleOne 1250ms linear infinite;
-          animation: bubbleOne 1250ms linear infinite;
-}
+    #bubble-one-green,
+    #bubble-five-green {
+    -webkit-animation: bubbleThree 820ms linear infinite;
+            animation: bubbleThree 820ms linear infinite;
+    }
 
-@-webkit-keyframes bubbleOne {
-  0% {
-    -webkit-transform: translate3d(0, 0, 0);
-            transform: translate3d(0, 0, 0);
-    opacity: 1;
-  }
-  45% {
-    opacity: 1;
-    -webkit-transform: translate3d(15px, -25px, 0);
-            transform: translate3d(15px, -25px, 0);
-  }
-  90% {
-    -webkit-transform: translate3d(-5px, -30px, 0);
-            transform: translate3d(-5px, -30px, 0);
-    opacity: 0;
-  }
-  100% {
-    -webkit-transform: translate3d(0, 0, 0);
-            transform: translate3d(0, 0, 0);
-    opacity: 0;
-  }
-}
+    #bubble-six-green{
+    -webkit-animation: bubbleOne 1250ms linear infinite;
+            animation: bubbleOne 1250ms linear infinite;
+    }
 
-@keyframes bubbleOne {
-  0% {
-    -webkit-transform: translate3d(0, 0, 0);
-            transform: translate3d(0, 0, 0);
-    opacity: 1;
-  }
-  45% {
-    opacity: 1;
-    -webkit-transform: translate3d(15px, -25px, 0);
-            transform: translate3d(15px, -25px, 0);
-  }
-  90% {
-    -webkit-transform: translate3d(-5px, -30px, 0);
-            transform: translate3d(-5px, -30px, 0);
-    opacity: 0;
-  }
-  100% {
-    -webkit-transform: translate3d(0, 0, 0);
-            transform: translate3d(0, 0, 0);
-    opacity: 0;
-  }
-}
-@-webkit-keyframes bubbleThree {
-  0% {
-    -webkit-transform: translate3d(0, 0, 0);
-            transform: translate3d(0, 0, 0);
-    opacity: 1;
-  }
-  45% {
-    opacity: 1;
-    -webkit-transform: translate3d(-10px, -35px, 0);
-            transform: translate3d(-10px, -35px, 0);
-  }
-  90% {
-    -webkit-transform: translate3d(9px, -50px, 0);
-            transform: translate3d(9px, -50px, 0);
-    opacity: 0;
-  }
-  100% {
-    -webkit-transform: translate3d(0, 0, 0);
-            transform: translate3d(0, 0, 0);
-    opacity: 0;
-  }
-}
-@keyframes bubbleThree {
-  0% {
-    -webkit-transform: translate3d(0, 0, 0);
-            transform: translate3d(0, 0, 0);
-    opacity: 1;
-  }
-  45% {
-    opacity: 1;
-    -webkit-transform: translate3d(-10px, -35px, 0);
-            transform: translate3d(-10px, -35px, 0);
-  }
-  90% {
-    -webkit-transform: translate3d(9px, -50px, 0);
-            transform: translate3d(9px, -50px, 0);
-    opacity: 0;
-  }
-  100% {
-    -webkit-transform: translate3d(0, 0, 0);
-            transform: translate3d(0, 0, 0);
-    opacity: 0;
-  }
-}
+    @-webkit-keyframes bubbleOne {
+    0% {
+        -webkit-transform: translate3d(0, 0, 0);
+                transform: translate3d(0, 0, 0);
+        opacity: 1;
+    }
+    45% {
+        opacity: 1;
+        -webkit-transform: translate3d(15px, -25px, 0);
+                transform: translate3d(15px, -25px, 0);
+    }
+    90% {
+        -webkit-transform: translate3d(-5px, -30px, 0);
+                transform: translate3d(-5px, -30px, 0);
+        opacity: 0;
+    }
+    100% {
+        -webkit-transform: translate3d(0, 0, 0);
+                transform: translate3d(0, 0, 0);
+        opacity: 0;
+    }
+    }
 
+    @keyframes bubbleOne {
+    0% {
+        -webkit-transform: translate3d(0, 0, 0);
+                transform: translate3d(0, 0, 0);
+        opacity: 1;
+    }
+    45% {
+        opacity: 1;
+        -webkit-transform: translate3d(15px, -25px, 0);
+                transform: translate3d(15px, -25px, 0);
+    }
+    90% {
+        -webkit-transform: translate3d(-5px, -30px, 0);
+                transform: translate3d(-5px, -30px, 0);
+        opacity: 0;
+    }
+    100% {
+        -webkit-transform: translate3d(0, 0, 0);
+                transform: translate3d(0, 0, 0);
+        opacity: 0;
+    }
+    }
+    @-webkit-keyframes bubbleThree {
+    0% {
+        -webkit-transform: translate3d(0, 0, 0);
+                transform: translate3d(0, 0, 0);
+        opacity: 1;
+    }
+    45% {
+        opacity: 1;
+        -webkit-transform: translate3d(-10px, -35px, 0);
+                transform: translate3d(-10px, -35px, 0);
+    }
+    90% {
+        -webkit-transform: translate3d(9px, -50px, 0);
+                transform: translate3d(9px, -50px, 0);
+        opacity: 0;
+    }
+    100% {
+        -webkit-transform: translate3d(0, 0, 0);
+                transform: translate3d(0, 0, 0);
+        opacity: 0;
+    }
+    }
+    @keyframes bubbleThree {
+    0% {
+        -webkit-transform: translate3d(0, 0, 0);
+                transform: translate3d(0, 0, 0);
+        opacity: 1;
+    }
+    45% {
+        opacity: 1;
+        -webkit-transform: translate3d(-10px, -35px, 0);
+                transform: translate3d(-10px, -35px, 0);
+    }
+    90% {
+        -webkit-transform: translate3d(9px, -50px, 0);
+                transform: translate3d(9px, -50px, 0);
+        opacity: 0;
+    }
+    100% {
+        -webkit-transform: translate3d(0, 0, 0);
+                transform: translate3d(0, 0, 0);
+        opacity: 0;
+    }
+    }
 
-
-</style>
-  <g id="beaker">
-      <path d="M1085.651,738.703 L1223.64,511.063 L1361.629,738.703 C1377.011,764.079 1362.088,799.913 1336.138,799.913 L1111.142,799.913 C1085.191,799.913 1070.268,764.079 1085.651,738.703" fill="#C4EAEE"/>
-      <path d="M1294.534,765.152 L1152.747,765.152 L1152.747,488.909 L1294.534,488.909 z" fill="#C4EAEE"/>
-      <path d="M1326.786,731.725 L1273.628,644.031 L1173.652,644.031 L1120.494,731.725 C1108.996,750.694 1120.151,777.479 1139.549,777.479 L1307.732,777.479 C1327.13,777.479 1338.284,750.694 1326.786,731.725" fill="#9FD86E"/>
-      <g id="beaker-green">
-        <path id="bubble-one-green" d="M1180.107,722.419 C1180.107,728.861 1174.885,734.082 1168.444,734.082 C1162.002,734.082 1156.78,728.861 1156.78,722.419 C1156.78,715.978 1162.002,710.756 1168.444,710.756 C1174.885,710.756 1180.107,715.978 1180.107,722.419" fill="#8BC751"/>
-        <path id="bubble-two-green" d="M1242.624,685.141 C1242.624,694.159 1235.313,701.47 1226.295,701.47 C1217.277,701.47 1209.966,694.159 1209.966,685.141 C1209.966,676.123 1217.277,668.812 1226.295,668.812 C1235.313,668.812 1242.624,676.123 1242.624,685.141" fill="#8BC751"/>
-        <path id="bubble-three-green" d="M1220.229,604.799 C1220.229,612.014 1214.381,617.862 1207.167,617.862 C1199.953,617.862 1194.104,612.014 1194.104,604.799 C1194.104,597.584 1199.953,591.736 1207.167,591.736 C1214.381,591.736 1220.229,597.584 1220.229,604.799" fill="#8BC751"/>
-        <path id="bubble-four-green" d="M1299.363,685.052 C1299.363,694.021 1292.092,701.292 1283.123,701.292 C1274.154,701.292 1266.883,694.021 1266.883,685.052 C1266.883,676.083 1274.154,668.812 1283.123,668.812 C1292.092,668.812 1299.363,676.083 1299.363,685.052" fill="#8BC751"/>
-        <path id="bubble-five-green" d="M1236.092,748.273 C1236.092,751.711 1233.305,754.499 1229.866,754.499 C1226.428,754.499 1223.64,751.711 1223.64,748.273 C1223.64,744.834 1226.428,742.047 1229.866,742.047 C1233.305,742.047 1236.092,744.834 1236.092,748.273" fill="#8BC751"/>
-        <path id="bubble-six-green" d="M1294.534,751.673 C1294.534,756.989 1290.224,761.299 1284.908,761.299 C1279.591,761.299 1275.282,756.989 1275.282,751.673 C1275.282,746.357 1279.591,742.047 1284.908,742.047 C1290.224,742.047 1294.534,746.357 1294.534,751.673" fill="#8BC751"/>
-      </g>
-    </g>
+  </style>
+ </defs>
+ <g id="Layer_x0020_1">
+  <metadata id="CorelCorpID_0Corel-Layer"/>
+  <g id="_2202791683248">
+   <path class="fil0" d="M2636.1 6737.59l1437.39 -2371.25 1437.39 2371.25c160.23,264.33 4.78,637.61 -265.53,637.61l-2343.71 0c-270.32,0 -425.77,-373.27 -265.53,-637.61z"/>
+   <polygon class="fil0" points="4811.97,7013.1 3335.02,7013.1 3335.02,4135.57 4811.97,4135.57 "/>
+   <path class="fil1" d="M5147.93 6664.91l-553.73 -913.48 -1041.42 0 -553.73 913.48c-119.77,197.59 -3.57,476.6 198.49,476.6l1751.91 0c202.06,0 318.25,-279.01 198.48,-476.6z"/>
+   <path id="bubble-one-green" class="fil2" d="M3620.02 6567.96c0,67.11 -54.39,121.49 -121.49,121.49 -67.11,0 -121.5,-54.39 -121.5,-121.49 0,-67.09 54.39,-121.49 121.5,-121.49 67.09,0 121.49,54.4 121.49,121.49z"/>
+   <path id="bubble-two-green" class="fil3" d="M4271.24 6179.65c0,93.94 -76.16,170.09 -170.09,170.09 -93.94,0 -170.09,-76.16 -170.09,-170.09 0,-93.94 76.16,-170.09 170.09,-170.09 93.94,0 170.09,76.16 170.09,170.09z"/>
+   <path id="bubble-three-green" class="fil1" d="M4037.96 5342.76c0,75.15 -60.92,136.07 -136.06,136.07 -75.15,0 -136.07,-60.92 -136.07,-136.07 0,-75.16 60.93,-136.07 136.07,-136.07 75.15,0 136.06,60.92 136.06,136.07z"/>
+   <path id="bubble-four-green" class="fil4" d="M4862.27 6178.73c0,93.43 -75.74,169.17 -169.17,169.17 -93.43,0 -169.17,-75.74 -169.17,-169.17 0,-93.43 75.74,-169.17 169.17,-169.17 93.43,0 169.17,75.74 169.17,169.17z"/>
+   <path id="bubble-five-green" class="fil5" d="M4203.2 6837.28c0,35.81 -29.03,64.85 -64.85,64.85 -35.81,0 -64.85,-29.04 -64.85,-64.85 0,-35.82 29.04,-64.85 64.85,-64.85 35.82,0 64.85,29.03 64.85,64.85z"/>
+   <path id="bubble-six-green" class="fil6" d="M4811.97 6872.7c0,55.37 -44.9,100.27 -100.27,100.27 -55.39,0 -100.27,-44.89 -100.27,-100.27 0,-55.38 44.89,-100.27 100.27,-100.27 55.37,0 100.27,44.89 100.27,100.27z"/>
+  </g>
+ </g>
 </svg>

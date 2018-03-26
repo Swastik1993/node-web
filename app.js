@@ -18,6 +18,7 @@ app.get('/', routes.home);
 app.get('/cnn', routes.cnn);
 app.get('/dot-plot', routes.dotPlot);
 app.get('/lstm', routes.lstm);
+app.get('/k-means', routes.kmeans);
 app.get('/opencv-python', routes.opencv);
 app.get('/blog', routes.blog);
 app.get('*', routes.notFound);

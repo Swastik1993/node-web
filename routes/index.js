@@ -25,6 +25,12 @@ exports.lstm = function(request, response) {
     });
 };
 
+exports.kmeans = function(request, response) {
+    response.render("kmeans", {
+        title : "K-Means algorithm"
+    });
+};
+
 exports.opencv = function(request, response) {
     response.render("opencv-python", {
         title : "Instructions to install OpenCV with Python"
